@@ -1,0 +1,486 @@
+body{
+    width: 1440px;
+    height: 6316px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header .info{
+    align-items: center;
+    font-size: 12px;
+    display: flex;
+    width: 1440px;
+    height: 32px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+header .info .phone{
+    margin-left: 130px;
+    display: flex;
+}
+header .info .diachi{
+    margin-left:50px ;
+    display: flex;
+}
+header .info .star{
+    margin-left: 550px;
+    display: flex;
+}
+#icon-phone,#icon-map,#icon-star{
+    margin-right: 5px;
+}
+
+header .header1{
+    width: 1440px;
+    height: 120px;
+}
+/* header 1*/
+header .header1 {
+    display: flex;
+    position: relative;
+}
+header .header1 .icon{
+    padding-top: 33px;
+    margin-left: 130px;
+}
+header .header1 .men-women{
+    padding-top: 50px;
+    margin-left: 70px;
+    font-size: 16px;
+}
+header .header1 .search{
+    width: 380px;
+    height: 38px;
+    padding-top:41px;
+    display: flex;
+    margin-left: 80px;
+    position: relative;
+   
+}
+header .header1 .search input{
+    width: 380px;
+    height: 38px;
+    padding: 0px;
+    border: 1px solid;
+}
+header .header1 .search button {
+    width: 100px;
+    height: 38px;
+    background-color: #1a1a1a;
+    color: white;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+header .header1 .account {
+    display: flex;
+    font-size: 10px;
+    margin-left: 80px;
+   
+
+}
+.bottom{
+    display: flex;
+   
+}
+header .header1 .wishlist{
+    display: flex;
+    margin-left: 30px;
+    font-size: 14px;
+   
+}
+header .header1 .cart{
+    display: flex;
+    margin-left: 30px;
+    font-size: 14px;
+}
+#cart1{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 18px;
+}
+#icon-cart1{
+    cursor: pointer;
+    margin-top: 51px;
+    font-size: 18px;
+}
+#wishlist{
+    cursor: pointer;
+    margin-top: 51px;
+    margin-left: 18px;
+}
+#heart{
+    cursor: pointer;
+    margin-top: 51px;
+    font-size: 16px;
+}
+#user{
+    margin-top: 51px;
+    margin-right: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#sign-in-up{
+    margin-top: 40px;
+    cursor: pointer;
+}
+#ac{
+    cursor: pointer;
+    font-size: 14px;
+}
+#men{
+    margin-right: 40px;
+}
+#hr{
+    width: 32px;
+    height: 0px;
+    border: 0.5px solid #1a1a1a;
+    position: absolute;
+    left: 316px;
+    top: 70px;
+    
+}
+#down{
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 2px;
+   
+}
+/* header2*/
+header .header2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440px;
+    height: 50px;
+    align-items: center;
+    border-top: 1px solid #c4c4c4;
+}
+header .header2 ul{
+    
+    text-align: center;
+    display: flex;
+}
+header .header2 ul li{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid #c4c4c4;
+}
+#li-end{
+    border: 0px ;
+}
+/* banner1*/
+section .banner1{
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 598px;
+    background-color: #cdddf0;
+}
+section .banner1  .new-season{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 90px;
+    left: 130px;
+}
+#hr-season{
+    width: 40px;
+    height: 0px;
+    border-bottom: 1px solid #1a1a1a;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+section .banner1 .right{
+    position: absolute;
+    top:69px;
+    left: 630px;
+    width: 680px;
+    height: 460px;
+    background-color: #d4f5ff;
+    display: flex;
+}
+section .banner1 .right .icon-right{
+    position: absolute;
+    right: 8px;
+    bottom: 18px;
+}
+section .banner .banner1 .img-right{
+    position: absolute;
+    left: 832px;
+    top:10px
+    
+}
+section .banner .banner1 .ob{
+    position: absolute;
+    top:137px;
+    left: 130px;
+}
+section .banner .banner1 .laster{
+    position: absolute ;
+    top: 223px;
+    left: 230px;
+}
+section .banner .banner1 button{
+    position: absolute;
+    cursor: pointer;
+    font-size: 14px;
+    width: 121px;
+    height: 38px;
+    top: 384px;
+    left: 130px;
+    color: white;
+    background-color: #1a1a1a;
+}
+section .banner .banner1 .video{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 390px;
+    left: 330px;
+    cursor: pointer;
+
+}
+section .banner .banner1 .rectangle{
+    display: flex;
+    position: absolute;
+    top: 527px;
+    cursor: pointer;
+    left: 130px;
+    
+}
+section .banner .banner1 .rectangle hr{
+    width: 40px;
+    height: 2px;
+    background-color: #b3c4d7;
+    margin-left: 3px;
+}
+
+.rectangle #hr1{
+    border: 1px solid white;
+}
+#watch-video{
+    margin-left: 10px;
+}
+/* banner2*/
+section .banner .banner2{
+    width: 1440px;
+    height: 147px;
+    display: flex;
+    align-items: center;
+}
+section .banner .banner2 .img1{
+    margin-left: 129px;
+}
+section .banner .banner2 .img2,.img3,.img4,.img5,.img6,.img7{
+    margin-left: 72px;
+}
+section .banner .banner2 .img7{
+    display: flex;
+}
+#hr-img7{
+    box-sizing: border-box;
+    width: 40px;
+    height: 0px;
+    border: 1px solid #1a1a1a;
+    margin-top:10px;
+    margin-right: 8px;
+}
+
+/* fashion-trenning*/
+/* top*/
+.fashion-trenning{
+    position: relative;
+    width: 1440px;
+    height: 1720px;
+    background-color: rgb(252, 248, 248);
+    margin: 0px;
+    padding: 0px;
+}
+.fashion-trenning .top{
+    display: flex;
+    height: 800px;
+    width: 1440px;
+}
+.fashion-trenning .top .fashion{
+    margin-top: 120px;
+    margin-left: 130px;
+    display: flex;
+}
+.fashion-trenning  .top .fashion p{
+    font-size: 40px;
+    font-weight:900;
+    margin-right: 16px;
+}
+#hr-fashion{
+    margin-top: 35px;
+    width: 60px;
+    height: 0px;
+    border: 1px solid #1a1a1a;
+    
+}
+.fashion-trenning .top .img-fashion{
+    position: absolute;
+    width: 380px;
+    height: 504px;
+    background-color: rgb(233, 206, 233);
+    margin-left: 130px;
+    margin-top: 270px;
+}
+.fashion-trenning .top .img-mu{
+    position: absolute;
+    width:200px ;
+    height: 251.47px;background-color: #c5e5e9;
+    top: 270px;
+    right: 130px;
+   
+}
+#img-mu-id{
+    margin-top: 60px;
+}
+.fashion-trenning .top .img-day{
+    width: 225.33px;
+    height: 295px;
+    background-color: #c7d1eb;
+    position: absolute;
+    top: 497px;
+    right: 230.04px;
+}
+#img-day1{
+    margin-top: 35px;
+    margin-left: -50px;
+}
+.fashion-trenning .top .center{
+    font-size: 14px;
+    margin-top: 598px;
+    margin-left: 100px;
+}
+#button-shopnow{
+    background-color: #1a1a1a;
+    color: white;
+    width: 132px;
+    height: 38px;
+    justify-content: center;
+    margin-top: 102px;
+    cursor: pointer;
+}
+.fashion-trenning .top .driver{
+    font-size: 120px;
+    font-weight: bolder;
+    top: 326px;
+    left: 430px;
+    position: absolute;
+}
+.fashion-trenning .top .be-driver{
+    font-size: 120px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    top: 446px;
+    left: 603px;
+    
+}
+/* end top*/
+/* bottom*/
+.fashion-trenning .bottom .new-season{
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 160px;
+    margin-left: 130px;
+}
+#hr-season1{
+    width: 60px;
+    height: 0px;
+    border-bottom: 1px solid #1a1a1a ;
+    margin-left: 10px;
+    margin-top: 38px;
+    
+}
+.fashion-trenning .bottom{
+    display: inline;
+    position: relative;
+}
+.fashion-trenning .bottom .img-paul-left{
+    width: 580px;
+    height: 436px;
+    margin-left: 130px;
+    margin-top: 100px;
+    background-color: #bacbf9;
+    display: flex;
+}
+.fashion-trenning .bottom .img-paul-left hr{
+    width: 40px;
+    height: 2px;
+    margin-left: 8px;
+    border: 1px solid #f1f1f1;
+}
+.fashion-trenning .bottom .img-paul-left .hr-paul{
+    display: flex;
+    margin-left: 15px;
+}
+#hr-panl1{
+    border: 1px solid gray;
+}
+.fashion-trenning .bottom .img-paul-right{
+    width: 532px;
+    height: 361px;
+    position: absolute  ;
+    left: 682.83px;
+    top: 346px;
+}
+.fashion-trenning .bottom .img-paul-right .top{
+    width: 532px;
+    height: 300px;
+    background-color: #ffb7b7;
+}
+.fashion-trenning .bottom .img-paul-right .duoi{
+    width: 532px;
+    height: 61px;
+    display:flex;
+    background-color: white;
+    align-items: center;
+}
+.fashion-trenning .bottom .img-paul-right .duoi .converse{
+    display: flex;
+    margin-left: 60px;
+}
+#converse-id{
+    margin-right: 10px;
+    font-weight: 700;
+}
+.fashion-trenning .bottom .img-paul-right .duoi .pound{
+    display: flex;
+    margin-left: 121px;
+    font-weight: 700;
+}
+#pound-id{
+    margin-top: 2px;
+}
+.fashion-trenning .bottom .vector{
+    position: absolute;
+    top: 0px;
+    left: 1249.45px;
+    top: 450.08px;
+}
+.fashion-trenning .bottom .vector .vetor-top, .vecter-bottom{
+    width: 60px;
+    height: 60px;
+    border-radius: 50% ;
+    border: 1px solid #f1f1f1;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #9a9a9a;
+}
+.fashion-trenning .bottom .vector .vetor-top{
+    margin-bottom: 51.41px;
+}
+/* end bottom*/
+/* end fashion-trenning*/
+
